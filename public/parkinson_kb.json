@@ -1,0 +1,96 @@
+{
+  "symptoms": [
+    {
+      "name": "Tremor en reposo",
+      "description": "Temblor en una mano, brazo, pierna o mandíbula cuando el músculo está relajado.",
+      "severity": "leve",
+      "phases": ["temprana", "intermedia"]
+    },
+    {
+      "name": "Bradicinesia",
+      "description": "Lentitud de movimiento. Dificultad para iniciar movimientos voluntarios.",
+      "severity": "media",
+      "phases": ["temprana", "intermedia", "avanzada"]
+    },
+    {
+      "name": "Rigidez muscular",
+      "description": "Músculos tensos y contraídos que limitan el rango de movimiento.",
+      "severity": "media",
+      "phases": ["temprana", "intermedia"]
+    },
+    {
+      "name": "Pérdida del olfato (Anosmia)",
+      "description": "Disminución o pérdida total de la capacidad para oler.",
+      "severity": "leve",
+      "phases": ["prodromica", "temprana"]
+    },
+    {
+      "name": "Problemas de equilibrio",
+      "description": "Inestabilidad postural, mayor riesgo de caídas.",
+      "severity": "media",
+      "phases": ["intermedia", "avanzada"]
+    },
+    {
+      "name": "Dificultad para tragar (Disfagia)",
+      "description": "Problemas para mover alimentos o líquidos de la boca al estómago.",
+      "severity": "alta",
+      "phases": ["avanzada"]
+    },
+    {
+      "name": "Alucinaciones visuales",
+      "description": "Ver cosas que no están ahí.",
+      "severity": "alta",
+      "phases": ["avanzada"]
+    },
+    {
+      "name": "Caídas frecuentes",
+      "description": "Pérdida de equilibrio que resulta en caídas recurrentes.",
+      "severity": "alta",
+      "phases": ["avanzada"]
+    },
+    {
+        "name": "Cambios en el habla (Hipofonía)",
+        "description": "Hablar en un tono de voz bajo, monótono o con dificultad para articular.",
+        "severity": "media",
+        "phases": ["intermedia", "avanzada"]
+    },
+    {
+        "name": "Escritura pequeña (Micrografía)",
+        "description": "La escritura se vuelve más pequeña y apretada.",
+        "severity": "leve",
+        "phases": ["temprana"]
+    }
+  ],
+  "recommendations": {
+    "prodromica": {
+      "dieta": "Dieta Mediterránea rica en antioxidantes. Consumir bayas, nueces, pescado azul y aceite de oliva virgen extra. Aumentar ingesta de vegetales de hoja verde.",
+      "ejercicio": "Actividad física regular de intensidad moderada, como caminar rápido, nadar o montar en bicicleta. Fomentar la neuroprotección.",
+      "sueno": "Establecer una rutina de sueño regular. Evitar cafeína y pantallas antes de dormir. Considerar evaluación de apnea del sueño si hay ronquidos fuertes.",
+      "terapias_complementarias": "Actividades que estimulen la mente y reduzcan el estrés, como meditación, yoga o aprender una nueva habilidad."
+    },
+    "temprana": {
+      "dieta": "Mantener Dieta Mediterránea. Asegurar una ingesta adecuada de fibra para combatir el estreñimiento (frutas, verduras, legumbres). Buena hidratación.",
+      "ejercicio": "Incorporar ejercicios de equilibrio y flexibilidad como Tai Chi o yoga. Ejercicios de amplitud de movimiento para combatir la rigidez.",
+      "sueno": "Higiene del sueño estricta. Consultar al médico si aparecen problemas de insomnio o síndrome de piernas inquietas.",
+      "terapias_complementarias": "Logopedia (terapia del habla) para abordar cambios tempranos en la voz. Terapia ocupacional para adaptar actividades diarias."
+    },
+    "intermedia": {
+      "dieta": "Vigilar la ingesta calórica para evitar pérdida de peso. Alimentos fáciles de masticar. Consultar con un nutricionista para un plan personalizado.",
+      "ejercicio": "Fisioterapia supervisada para trabajar la marcha, el equilibrio y las transferencias. Evitar ejercicios de alto impacto.",
+      "sueno": "Evaluación médica de posibles trastornos del sueño REM. Ajustar el entorno para prevenir caídas nocturnas.",
+      "terapias_complementarias": "Musicoterapia para mejorar la marcha y el estado de ánimo. Continuar con logopedia y terapia ocupacional."
+    },
+    "avanzada": {
+      "dieta": "Alimentos de textura blanda o purés para manejar la disfagia. Espesantes para líquidos si es necesario. Suplementos nutricionales bajo supervisión médica.",
+      "ejercicio": "Ejercicios pasivos y movilizaciones asistidas por un cuidador o fisioterapeuta para mantener la movilidad articular y prevenir contracturas.",
+      "sueno": "Manejo médico de los trastornos del sueño. Cama articulada y otras adaptaciones para la seguridad y comodidad.",
+      "terapias_complementarias": "Cuidados paliativos para el manejo integral de los síntomas. Apoyo psicológico para el paciente y los cuidadores."
+    },
+    "desconocida": {
+      "dieta": "No se pueden dar recomendaciones de dieta sin una evaluación clara de los síntomas. Se aconseja mantener una dieta equilibrada y consultar a un profesional de la salud.",
+      "ejercicio": "La actividad física regular generalmente es beneficiosa, pero es crucial consultar a un médico antes de iniciar o modificar una rutina de ejercicios.",
+      "sueno": "Intente mantener un horario de sueño regular y un ambiente propicio para el descanso. Si experimenta problemas de sueño persistentes, hable con su médico.",
+      "terapias_complementarias": "No se pueden recomendar terapias específicas sin un análisis. Hable con un profesional de la salud para explorar opciones adecuadas para usted."
+    }
+  }
+}

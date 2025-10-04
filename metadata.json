@@ -1,0 +1,5 @@
+{
+  "name": "Parkin-Chat AI",
+  "description": "An AI-powered chatbot to provide preliminary analysis of Parkinson's disease symptoms based on a local knowledge base. This tool is for informational purposes only and does not replace a professional medical diagnosis.",
+  "requestFramePermissions": []
+}
