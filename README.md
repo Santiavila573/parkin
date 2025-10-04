@@ -47,7 +47,7 @@ Node.js (v18 o superior)
 Cuenta en OpenAI para obtener una API key
 
 2. Clonar el repositorio
- Copygit clone https://github.com/tu-usuario/parkinson-diagnosis-ai.git
+ Copygit clone https://github.com/Santiavila573/parkin.git
 cd parkinson-diagnosis-ai/client
 3. Instalar dependencias
  Copynpm install
